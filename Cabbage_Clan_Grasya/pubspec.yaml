@@ -1,0 +1,25 @@
+name: pass_it_forward
+description: A new Flutter project focusing on donating physical items.
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_maps_flutter: ^2.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # If you have images, declare them here:
+  assets:
+    - assets/profile.png
+    - assets/item.png
+    - assets/drive1.png
+    - assets/drive2.png
